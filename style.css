@@ -1,0 +1,74 @@
+main {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+#titulo {
+    position: relative;
+    left: 30px;
+    bottom: -30px;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+p {
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.boton {
+    position: relative;
+    left: 100px;
+    border: none;
+    background-color: antiquewhite;
+    
+}
+
+.txtbtn {
+    padding: 0px;
+    position: relative;
+    left:85px;
+    bottom: 20px;
+}
+
+.ladoIzquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 800px;
+    background-color: antiquewhite;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+.ladoDerecho {
+    width: 600px;
+    height: 800px;
+    background-color: #FFC88B;
+    display: flex;
+    justify-items: right;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.logo {
+    position: relative;
+    bottom: 130px;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+
